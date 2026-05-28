@@ -1,0 +1,1203 @@
+{
+  "meta": {
+    "thread": "elite_overproduction",
+    "label": "Elite Overproduction",
+    "last_updated": "2026-05-28",
+    "update_frequency": "annual",
+    "next_expected_update": "2026-12",
+    "source": "NCES Digest of Education Statistics + BLS JOLTS",
+    "theory_ref": "Turchin SDT \u2014 aspirant supply vs elite opening demand; overproduction drives counter-elite formation and intra-elite competition"
+  },
+  "series": [
+    {
+      "series_id": "aspirant_count",
+      "label": "Bachelor's+ Degrees Awarded (000s)",
+      "type": "stress",
+      "unit": "thousands",
+      "color": "#e05252",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "elite_openings",
+      "label": "Elite Job Openings (000s)",
+      "type": "counterweight",
+      "unit": "thousands",
+      "color": "#52a8e0",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "aspirant_ratio",
+      "label": "Aspirants per Elite Opening",
+      "type": "stress",
+      "unit": "ratio",
+      "color": "#e0a050",
+      "stroke_style": "solid",
+      "stroke_width": 2.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "aspirant_count_forecast",
+      "label": "Degrees Awarded \u2014 Projected (000s)",
+      "type": "stress",
+      "unit": "thousands",
+      "color": null,
+      "stroke_style": "dashed",
+      "stroke_width": 1.5,
+      "is_forecast": true
+    },
+    {
+      "series_id": "elite_openings_forecast",
+      "label": "Elite Openings \u2014 Projected (000s)",
+      "type": "counterweight",
+      "unit": "thousands",
+      "color": null,
+      "stroke_style": "dashed",
+      "stroke_width": 1.5,
+      "is_forecast": true
+    },
+    {
+      "series_id": "aspirant_ratio_forecast",
+      "label": "Aspirants per Elite Opening \u2014 Projected",
+      "type": "stress",
+      "unit": "ratio",
+      "color": null,
+      "stroke_style": "dashed",
+      "stroke_width": 2,
+      "is_forecast": true
+    }
+  ],
+  "observations": [
+    {
+      "date": "2005-01-01",
+      "series_id": "aspirant_count",
+      "value": 1439,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.755,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "elite_openings",
+      "value": 820,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "aspirant_count",
+      "value": 1486,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.668,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "elite_openings",
+      "value": 891,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "aspirant_count",
+      "value": 1525,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.633,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "elite_openings",
+      "value": 934,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "aspirant_count",
+      "value": 1563,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.78,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "elite_openings",
+      "value": 878,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "aspirant_count",
+      "value": 1602,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 2.618,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "elite_openings",
+      "value": 612,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "aspirant_count",
+      "value": 1650,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 2.508,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "elite_openings",
+      "value": 658,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "aspirant_count",
+      "value": 1716,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 2.37,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "elite_openings",
+      "value": 724,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "aspirant_count",
+      "value": 1792,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 2.246,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "elite_openings",
+      "value": 798,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "aspirant_count",
+      "value": 1841,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 2.163,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "elite_openings",
+      "value": 851,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "aspirant_count",
+      "value": 1894,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 2.052,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "elite_openings",
+      "value": 923,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "aspirant_count",
+      "value": 1943,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.981,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "elite_openings",
+      "value": 981,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "aspirant_count",
+      "value": 1982,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.947,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "elite_openings",
+      "value": 1018,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "aspirant_count",
+      "value": 2003,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.877,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "elite_openings",
+      "value": 1067,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "aspirant_count",
+      "value": 2016,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.778,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "elite_openings",
+      "value": 1134,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "aspirant_count",
+      "value": 2051,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.774,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "elite_openings",
+      "value": 1156,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "aspirant_count",
+      "value": 2012,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 2.39,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "elite_openings",
+      "value": 842,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "aspirant_count",
+      "value": 2068,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.664,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "elite_openings",
+      "value": 1243,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "aspirant_count",
+      "value": 2114,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.524,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "elite_openings",
+      "value": 1387,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "aspirant_count",
+      "value": 2156,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.661,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "elite_openings",
+      "value": 1298,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "aspirant_count",
+      "value": 2187,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "NCES Digest 2025 Table 318.10"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "aspirant_ratio",
+      "value": 1.762,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "elite_openings",
+      "value": 1241,
+      "is_projection": false,
+      "vintage": "2026-05-27",
+      "source_version": "BLS JOLTS 2025"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2201,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.837,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1198,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2026-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2218,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2026-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.869,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2026-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1187,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2027-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2234,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2027-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.86,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2027-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1201,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2028-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2247,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2028-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.851,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2028-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1214,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2029-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2259,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2029-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.847,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2029-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1223,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2030-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2271,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2030-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.848,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2030-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1229,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2031-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2280,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2031-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.848,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2031-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1234,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2032-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2289,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2032-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.849,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2032-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1238,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2033-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2296,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2033-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.85,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2033-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1241,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2034-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2302,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2034-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.852,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2034-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1243,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2035-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2308,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2035-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.855,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2035-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1244,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2036-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2313,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2036-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.858,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2036-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1245,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2037-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2317,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2037-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.861,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2037-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1245,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2038-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2320,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2038-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.862,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2038-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1246,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2039-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2322,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2039-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.864,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2039-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1246,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2040-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2324,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2040-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.864,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2040-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1247,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2041-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2325,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2041-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.864,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2041-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1247,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2042-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2326,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2042-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.865,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2042-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1247,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2043-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2327,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2043-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.865,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2043-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1248,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2044-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2327,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2044-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.865,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2044-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1248,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2045-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2328,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2045-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.865,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2045-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1248,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2046-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2328,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2046-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.865,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2046-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1248,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2047-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2329,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2047-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.865,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2047-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1249,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2048-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2329,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2048-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.865,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2048-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1249,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2049-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2329,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2049-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.865,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2049-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1249,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2050-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2330,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2050-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.865,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2050-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1249,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    },
+    {
+      "date": "2051-01-01",
+      "series_id": "aspirant_count_forecast",
+      "value": 2330,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "NCES 2026 Projections"
+    },
+    {
+      "date": "2051-01-01",
+      "series_id": "aspirant_ratio_forecast",
+      "value": 1.864,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "derived: NCES/BLS projected"
+    },
+    {
+      "date": "2051-01-01",
+      "series_id": "elite_openings_forecast",
+      "value": 1250,
+      "is_projection": true,
+      "vintage": "2026-05-27",
+      "source_version": "BLS Employment Outlook 2024-2034 extrapolated"
+    }
+  ]
+}
