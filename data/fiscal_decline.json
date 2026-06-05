@@ -1,0 +1,2345 @@
+{
+  "meta": {
+    "thread": "fiscal_decline",
+    "label": "Fiscal State Decline",
+    "last_updated": "2026-06-05",
+    "update_frequency": "annual",
+    "next_expected_update": "2027-03",
+    "source": "FRED API + OMB Historical Tables + CBO Budget Outlook",
+    "theory_ref": "Tainter \u2014 debt service crowding out state capacity; complexity cost inflection point as governance failure precursor"
+  },
+  "series": [
+    {
+      "series_id": "debt_gdp",
+      "label": "Federal Debt / GDP (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e05252",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "net_interest_pct",
+      "label": "Net Interest / Revenue (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e0a050",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "mandatory_pct",
+      "label": "Mandatory Spending / Outlays (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#c0392b",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "revenue_gdp",
+      "label": "Federal Revenue / GDP (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#52a8e0",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "real_gdp_growth",
+      "label": "Real GDP Growth (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#5db85d",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "debt_gdp_forecast",
+      "label": "Debt / GDP \u2014 Projected (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": null,
+      "stroke_style": "dashed",
+      "stroke_width": 1.5,
+      "is_forecast": true
+    },
+    {
+      "series_id": "net_interest_forecast",
+      "label": "Net Interest / Revenue \u2014 Projected (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": null,
+      "stroke_style": "dashed",
+      "stroke_width": 1.5,
+      "is_forecast": true
+    }
+  ],
+  "observations": [
+    {
+      "date": "1980-01-01",
+      "series_id": "debt_gdp",
+      "value": 31.81,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "mandatory_pct",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "net_interest_pct",
+      "value": 12.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "real_gdp_growth",
+      "value": -0.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "revenue_gdp",
+      "value": 18.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "debt_gdp",
+      "value": 31.02,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "mandatory_pct",
+      "value": 47.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "net_interest_pct",
+      "value": 14.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "revenue_gdp",
+      "value": 18.69,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "debt_gdp",
+      "value": 34.01,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "mandatory_pct",
+      "value": 46.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "net_interest_pct",
+      "value": 17.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "real_gdp_growth",
+      "value": -1.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "revenue_gdp",
+      "value": 18.48,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "debt_gdp",
+      "value": 37.75,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "mandatory_pct",
+      "value": 47.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "net_interest_pct",
+      "value": 18.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 4.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.53,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "debt_gdp",
+      "value": 38.75,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "mandatory_pct",
+      "value": 45.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "net_interest_pct",
+      "value": 20.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 7.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.51,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "debt_gdp",
+      "value": 41.89,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "mandatory_pct",
+      "value": 45.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "net_interest_pct",
+      "value": 21.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 4.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.92,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "debt_gdp",
+      "value": 46.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "mandatory_pct",
+      "value": 45.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "net_interest_pct",
+      "value": 21.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 3.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "debt_gdp",
+      "value": 48.32,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "mandatory_pct",
+      "value": 45.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "net_interest_pct",
+      "value": 21.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 3.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "debt_gdp",
+      "value": 49.67,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "mandatory_pct",
+      "value": 46.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "net_interest_pct",
+      "value": 20.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 4.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.36,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "debt_gdp",
+      "value": 50.83,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "mandatory_pct",
+      "value": 46.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "net_interest_pct",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 3.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.57,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "debt_gdp",
+      "value": 53.77,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "mandatory_pct",
+      "value": 47.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "net_interest_pct",
+      "value": 23.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 1.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.31,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "debt_gdp",
+      "value": 58.43,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "mandatory_pct",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "net_interest_pct",
+      "value": 23.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "real_gdp_growth",
+      "value": -0.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.13,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "debt_gdp",
+      "value": 61.37,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "mandatory_pct",
+      "value": 50.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "net_interest_pct",
+      "value": 23.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 3.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.74,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "debt_gdp",
+      "value": 63.44,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "mandatory_pct",
+      "value": 51.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "net_interest_pct",
+      "value": 23.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.83,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "debt_gdp",
+      "value": 63.72,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "mandatory_pct",
+      "value": 52.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "net_interest_pct",
+      "value": 22.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 4.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.27,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "debt_gdp",
+      "value": 64.41,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "net_interest_pct",
+      "value": 23.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.69,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "debt_gdp",
+      "value": 64.18,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "net_interest_pct",
+      "value": 23.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 3.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "revenue_gdp",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "debt_gdp",
+      "value": 62.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "net_interest_pct",
+      "value": 22.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 4.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "revenue_gdp",
+      "value": 18.41,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "debt_gdp",
+      "value": 60.45,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "net_interest_pct",
+      "value": 20.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 4.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "revenue_gdp",
+      "value": 19.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "debt_gdp",
+      "value": 58.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "net_interest_pct",
+      "value": 19.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 4.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "revenue_gdp",
+      "value": 18.97,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "debt_gdp",
+      "value": 54.91,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "mandatory_pct",
+      "value": 52.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "net_interest_pct",
+      "value": 17.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 4.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "revenue_gdp",
+      "value": 19.76,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "debt_gdp",
+      "value": 54.53,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "net_interest_pct",
+      "value": 16.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "revenue_gdp",
+      "value": 18.82,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "debt_gdp",
+      "value": 56.71,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "mandatory_pct",
+      "value": 54.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "net_interest_pct",
+      "value": 14.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 1.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.96,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "debt_gdp",
+      "value": 59.01,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "mandatory_pct",
+      "value": 54.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "net_interest_pct",
+      "value": 13.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "revenue_gdp",
+      "value": 15.56,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "debt_gdp",
+      "value": 60.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "net_interest_pct",
+      "value": 13.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 3.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "revenue_gdp",
+      "value": 15.39,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "debt_gdp",
+      "value": 60.63,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "net_interest_pct",
+      "value": 13.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 3.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.52,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "debt_gdp",
+      "value": 61.17,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "net_interest_pct",
+      "value": 14.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.42,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "debt_gdp",
+      "value": 61.84,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "mandatory_pct",
+      "value": 53.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "net_interest_pct",
+      "value": 14.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.74,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "debt_gdp",
+      "value": 67.61,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "mandatory_pct",
+      "value": 55.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "net_interest_pct",
+      "value": 14.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 0.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.09,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "debt_gdp",
+      "value": 82.03,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "mandatory_pct",
+      "value": 60.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "net_interest_pct",
+      "value": 12.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "real_gdp_growth",
+      "value": -2.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "revenue_gdp",
+      "value": 14.54,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "debt_gdp",
+      "value": 89.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "mandatory_pct",
+      "value": 59.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "net_interest_pct",
+      "value": 12.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "revenue_gdp",
+      "value": 14.37,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "debt_gdp",
+      "value": 94.64,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "mandatory_pct",
+      "value": 59.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "net_interest_pct",
+      "value": 13.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 1.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "revenue_gdp",
+      "value": 14.77,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "debt_gdp",
+      "value": 98.75,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "mandatory_pct",
+      "value": 60.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "net_interest_pct",
+      "value": 13.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "revenue_gdp",
+      "value": 15.07,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "debt_gdp",
+      "value": 99.04,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "mandatory_pct",
+      "value": 59.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "net_interest_pct",
+      "value": 12.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.44,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "debt_gdp",
+      "value": 101.06,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "mandatory_pct",
+      "value": 60.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "net_interest_pct",
+      "value": 12.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.16,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "debt_gdp",
+      "value": 99.04,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "mandatory_pct",
+      "value": 61.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "net_interest_pct",
+      "value": 12.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.76,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "debt_gdp",
+      "value": 103.91,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "mandatory_pct",
+      "value": 61.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "net_interest_pct",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 1.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.38,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "debt_gdp",
+      "value": 103.03,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "mandatory_pct",
+      "value": 61.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "net_interest_pct",
+      "value": 12.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.91,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "debt_gdp",
+      "value": 103.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "mandatory_pct",
+      "value": 61.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "net_interest_pct",
+      "value": 13.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 3.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.12,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "debt_gdp",
+      "value": 105.24,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "mandatory_pct",
+      "value": 61.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "net_interest_pct",
+      "value": 15.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.08,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "debt_gdp",
+      "value": 125.86,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "mandatory_pct",
+      "value": 64.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "net_interest_pct",
+      "value": 12.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "real_gdp_growth",
+      "value": -2.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.01,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "debt_gdp",
+      "value": 119.64,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "mandatory_pct",
+      "value": 63.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "net_interest_pct",
+      "value": 10.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 6.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.06,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "debt_gdp",
+      "value": 118.36,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "mandatory_pct",
+      "value": 61.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "net_interest_pct",
+      "value": 13.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "revenue_gdp",
+      "value": 18.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "debt_gdp",
+      "value": 118.62,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "mandatory_pct",
+      "value": 62.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "net_interest_pct",
+      "value": 19.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "revenue_gdp",
+      "value": 15.97,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "debt_gdp",
+      "value": 120.25,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "mandatory_pct",
+      "value": 63.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "net_interest_pct",
+      "value": 22.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "OMB Historical Tables 2026"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "revenue_gdp",
+      "value": 16.79,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "debt_gdp",
+      "value": 121.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED GFDGDPA188S 2026"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 100.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 24.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "real_gdp_growth",
+      "value": 2.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED A191RL1A225NBEA 2026"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "revenue_gdp",
+      "value": 17.02,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "FRED FYFRGDA188S 2026"
+    },
+    {
+      "date": "2026-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 102.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2026-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 25.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2027-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 105.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2027-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 27.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2028-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 107.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2028-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 28.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2029-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 109.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2029-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 29.6,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2030-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 112.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2030-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 30.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2031-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 115.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2031-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 32.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2032-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 117.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2032-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 33.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2033-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 120.6,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2033-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 34.7,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2034-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 123.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2034-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 36.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2035-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 126.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2035-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 37.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2036-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 129.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2036-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 38.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2037-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 132.0,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2037-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 40.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2038-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 135.0,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2038-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 41.7,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2039-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 138.0,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2039-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 43.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2040-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 141.0,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2040-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 44.6,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2041-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 144.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2041-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 46.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2042-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 147.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2042-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 47.7,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2043-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 150.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2043-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 49.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2044-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 153.6,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2044-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 50.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2045-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 156.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2045-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 52.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2046-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 160.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2046-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 54.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2047-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 163.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2047-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 55.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2048-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 166.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2048-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 57.5,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2049-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 170.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2049-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 59.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2050-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 173.7,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2050-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 61.0,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2051-01-01",
+      "series_id": "debt_gdp_forecast",
+      "value": 177.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    },
+    {
+      "date": "2051-01-01",
+      "series_id": "net_interest_forecast",
+      "value": 62.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "CBO Budget Outlook 2026"
+    }
+  ],
+  "warnings": [
+    "Debt/GDP exceeds 100% (121.5%) \u2014 verify FRED series",
+    "Net interest/revenue exceeds 20% (22.4%) \u2014 historically associated with fiscal crisis"
+  ]
+}
