@@ -127,3 +127,18 @@ body {
   margin-bottom: 0.4rem;
   font-weight: 600;
 }
+/* Stub chart — add to bottom of index.css */
+.stub-chart {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #222;
+  border-radius: 6px;
+}
+
+.stub-chart__label {
+  color: #333;
+  font-size: 0.8rem;
+  font-style: italic;
+}
