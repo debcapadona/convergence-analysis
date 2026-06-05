@@ -1,0 +1,2760 @@
+{
+  "meta": {
+    "thread": "institutional_legitimacy",
+    "label": "Institutional Legitimacy Erosion",
+    "last_updated": "2026-06-05",
+    "update_frequency": "annual",
+    "next_expected_update": "2026-07",
+    "source": "Gallup Confidence in Institutions Survey 1973+",
+    "theory_ref": "Goldstone \u2014 declining trust in state institutions as precursor to political crisis; legitimacy erosion as governance fragility signal"
+  },
+  "series": [
+    {
+      "series_id": "trust_congress",
+      "label": "Confidence: Congress (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e05252",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "trust_presidency",
+      "label": "Confidence: Presidency (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e0a050",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "trust_supreme_court",
+      "label": "Confidence: Supreme Court (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#c0392b",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "trust_banks",
+      "label": "Confidence: Banks (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#d35400",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "trust_media",
+      "label": "Confidence: Media (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#8e44ad",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "trust_military",
+      "label": "Confidence: Military (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#52a8e0",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "trust_smallbiz",
+      "label": "Confidence: Small Business (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#5db85d",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    }
+  ],
+  "observations": [
+    {
+      "date": "1973-01-01",
+      "series_id": "trust_congress",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "trust_media",
+      "value": 39.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "trust_military",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "trust_presidency",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "trust_congress",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "trust_media",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "trust_military",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "trust_presidency",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "trust_congress",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "trust_media",
+      "value": 39.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "trust_military",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "trust_presidency",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "trust_congress",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "trust_media",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "trust_military",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "trust_presidency",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "trust_congress",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "trust_media",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "trust_military",
+      "value": 57.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "trust_presidency",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "trust_congress",
+      "value": 35.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "trust_media",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "trust_military",
+      "value": 57.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "trust_presidency",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "trust_banks",
+      "value": 60.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "trust_congress",
+      "value": 34.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "trust_media",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "trust_military",
+      "value": 54.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "trust_presidency",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "trust_banks",
+      "value": 60.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "trust_congress",
+      "value": 34.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "trust_media",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "trust_military",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "trust_presidency",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "trust_banks",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "trust_congress",
+      "value": 29.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "trust_media",
+      "value": 35.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "trust_military",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "trust_presidency",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "trust_banks",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "trust_congress",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "trust_media",
+      "value": 35.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "trust_military",
+      "value": 53.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "trust_presidency",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "trust_banks",
+      "value": 51.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "trust_congress",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "trust_media",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "trust_military",
+      "value": 53.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "trust_presidency",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "trust_banks",
+      "value": 51.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "trust_congress",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "trust_media",
+      "value": 34.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "trust_military",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "trust_presidency",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "trust_banks",
+      "value": 51.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "trust_congress",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "trust_media",
+      "value": 35.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "trust_military",
+      "value": 61.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "trust_presidency",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "trust_banks",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "trust_congress",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "trust_media",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "trust_military",
+      "value": 63.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "trust_presidency",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 41.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "trust_banks",
+      "value": 51.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "trust_congress",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "trust_media",
+      "value": 31.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "trust_military",
+      "value": 61.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "trust_presidency",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "trust_banks",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "trust_congress",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "trust_media",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "trust_military",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "trust_presidency",
+      "value": 41.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "trust_banks",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "trust_congress",
+      "value": 32.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "trust_media",
+      "value": 31.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "trust_military",
+      "value": 63.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "trust_presidency",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "trust_banks",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "trust_congress",
+      "value": 24.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "trust_media",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "trust_military",
+      "value": 68.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "trust_presidency",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "trust_banks",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "trust_congress",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "trust_media",
+      "value": 32.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "trust_military",
+      "value": 69.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "trust_presidency",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 39.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "trust_banks",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "trust_congress",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "trust_media",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "trust_military",
+      "value": 68.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "trust_presidency",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "trust_banks",
+      "value": 29.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "trust_congress",
+      "value": 19.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "trust_media",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "trust_military",
+      "value": 67.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "trust_presidency",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "trust_banks",
+      "value": 35.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "trust_congress",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "trust_media",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "trust_military",
+      "value": 64.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "trust_presidency",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "trust_banks",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "trust_congress",
+      "value": 21.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "trust_media",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "trust_military",
+      "value": 64.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "trust_presidency",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "trust_banks",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "trust_congress",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "trust_media",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "trust_military",
+      "value": 66.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "trust_presidency",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "trust_banks",
+      "value": 41.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "trust_congress",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "trust_media",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "trust_military",
+      "value": 67.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "trust_presidency",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 63.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_banks",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_congress",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_media",
+      "value": 29.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_military",
+      "value": 65.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_presidency",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 62.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "trust_banks",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "trust_congress",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "trust_media",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "trust_military",
+      "value": 68.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "trust_presidency",
+      "value": 51.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 63.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_banks",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_congress",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_media",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_military",
+      "value": 64.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_presidency",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 59.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "trust_banks",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "trust_congress",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "trust_media",
+      "value": 29.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "trust_military",
+      "value": 66.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "trust_presidency",
+      "value": 48.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 60.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_banks",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_congress",
+      "value": 29.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_media",
+      "value": 29.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_military",
+      "value": 79.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_presidency",
+      "value": 55.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 61.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "trust_banks",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "trust_congress",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "trust_media",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "trust_military",
+      "value": 76.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "trust_presidency",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 63.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_banks",
+      "value": 53.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_congress",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_media",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_military",
+      "value": 75.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_presidency",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 64.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "trust_banks",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "trust_congress",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "trust_media",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "trust_military",
+      "value": 74.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "trust_presidency",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 62.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 41.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_banks",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_congress",
+      "value": 19.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_media",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_military",
+      "value": 73.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_presidency",
+      "value": 33.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 59.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "trust_banks",
+      "value": 41.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "trust_congress",
+      "value": 14.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "trust_media",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "trust_military",
+      "value": 69.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "trust_presidency",
+      "value": 25.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 59.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 34.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_banks",
+      "value": 32.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_congress",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_media",
+      "value": 24.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_military",
+      "value": 71.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_presidency",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 57.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 32.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "trust_banks",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "trust_congress",
+      "value": 17.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "trust_media",
+      "value": 25.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "trust_military",
+      "value": 74.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "trust_presidency",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 67.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 39.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_banks",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_congress",
+      "value": 11.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_media",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_military",
+      "value": 76.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_presidency",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 66.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "trust_banks",
+      "value": 23.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "trust_congress",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "trust_media",
+      "value": 19.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "trust_military",
+      "value": 78.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "trust_presidency",
+      "value": 35.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 64.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_banks",
+      "value": 21.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_congress",
+      "value": 13.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_media",
+      "value": 21.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_military",
+      "value": 75.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_presidency",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 63.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "trust_banks",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "trust_congress",
+      "value": 10.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "trust_media",
+      "value": 23.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "trust_military",
+      "value": 76.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "trust_presidency",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 65.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 34.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_banks",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_congress",
+      "value": 7.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_media",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_military",
+      "value": 74.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_presidency",
+      "value": 29.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 62.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "trust_banks",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "trust_congress",
+      "value": 8.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "trust_media",
+      "value": 21.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "trust_military",
+      "value": 72.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "trust_presidency",
+      "value": 33.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 67.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 32.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_banks",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_congress",
+      "value": 9.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_media",
+      "value": 20.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_military",
+      "value": 73.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_presidency",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 68.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "trust_banks",
+      "value": 32.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "trust_congress",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "trust_media",
+      "value": 21.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "trust_military",
+      "value": 72.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "trust_presidency",
+      "value": 32.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 70.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_banks",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_congress",
+      "value": 11.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_media",
+      "value": 23.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_military",
+      "value": 74.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_presidency",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 67.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "trust_banks",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "trust_congress",
+      "value": 11.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "trust_media",
+      "value": 23.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "trust_military",
+      "value": 73.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "trust_presidency",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 68.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "trust_banks",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "trust_congress",
+      "value": 13.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "trust_media",
+      "value": 24.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "trust_military",
+      "value": 72.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "trust_presidency",
+      "value": 39.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 75.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_banks",
+      "value": 33.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_congress",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_media",
+      "value": 21.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_military",
+      "value": 69.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_presidency",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 70.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_banks",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_congress",
+      "value": 7.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_media",
+      "value": 16.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_military",
+      "value": 64.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_presidency",
+      "value": 23.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 68.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 25.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_banks",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_congress",
+      "value": 8.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_media",
+      "value": 17.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_military",
+      "value": 60.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_presidency",
+      "value": 26.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 65.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_banks",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_congress",
+      "value": 8.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_media",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_military",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_presidency",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_smallbiz",
+      "value": 63.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_supreme_court",
+      "value": 29.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "Gallup Confidence in Institutions 2024"
+    }
+  ],
+  "warnings": [
+    "trust_congress confidence at 8.0% \u2014 below 15% historical crisis threshold"
+  ]
+}
