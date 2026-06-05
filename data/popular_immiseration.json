@@ -1,0 +1,2680 @@
+{
+  "meta": {
+    "thread": "popular_immiseration",
+    "label": "Popular Immiseration",
+    "last_updated": "2026-06-05",
+    "update_frequency": "annual",
+    "next_expected_update": "2027-01",
+    "source": "BLS Productivity & Costs, Union Members Summary, Work Stoppages",
+    "theory_ref": "Turchin SDT \u2014 real wage stagnation vs productivity growth; declining bargaining power as structural immiseration driver"
+  },
+  "series": [
+    {
+      "series_id": "productivity_index",
+      "label": "Productivity Index (1971=100)",
+      "type": "stress",
+      "unit": "index",
+      "color": "#e05252",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "real_compensation_index",
+      "label": "Real Compensation Index (1971=100)",
+      "type": "counterweight",
+      "unit": "index",
+      "color": "#52a8e0",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "union_density",
+      "label": "Union Density (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#5db85d",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "labor_share",
+      "label": "Labor Share of Income (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#9b59b6",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "strike_count",
+      "label": "Major Work Stoppages (count)",
+      "type": "counterweight",
+      "unit": "count",
+      "color": "#1abc9c",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "productivity_forecast",
+      "label": "Productivity \u2014 Projected",
+      "type": "stress",
+      "unit": "index",
+      "color": null,
+      "stroke_style": "dashed",
+      "stroke_width": 1.5,
+      "is_forecast": true
+    },
+    {
+      "series_id": "compensation_forecast",
+      "label": "Compensation \u2014 Projected",
+      "type": "counterweight",
+      "unit": "index",
+      "color": null,
+      "stroke_style": "dashed",
+      "stroke_width": 1.5,
+      "is_forecast": true
+    }
+  ],
+  "observations": [
+    {
+      "date": "1971-01-01",
+      "series_id": "labor_share",
+      "value": 63.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1971-01-01",
+      "series_id": "productivity_index",
+      "value": 100.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1971-01-01",
+      "series_id": "real_compensation_index",
+      "value": 100.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1971-01-01",
+      "series_id": "strike_count",
+      "value": 298,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1971-01-01",
+      "series_id": "union_density",
+      "value": 27.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1972-01-01",
+      "series_id": "labor_share",
+      "value": 63.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1972-01-01",
+      "series_id": "productivity_index",
+      "value": 103.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1972-01-01",
+      "series_id": "real_compensation_index",
+      "value": 103.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1972-01-01",
+      "series_id": "strike_count",
+      "value": 250,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1972-01-01",
+      "series_id": "union_density",
+      "value": 26.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "labor_share",
+      "value": 62.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "productivity_index",
+      "value": 106.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "real_compensation_index",
+      "value": 104.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "strike_count",
+      "value": 317,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "union_density",
+      "value": 26.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "labor_share",
+      "value": 63.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "productivity_index",
+      "value": 103.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "real_compensation_index",
+      "value": 101.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "strike_count",
+      "value": 424,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "union_density",
+      "value": 26.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "labor_share",
+      "value": 62.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "productivity_index",
+      "value": 105.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "real_compensation_index",
+      "value": 101.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "strike_count",
+      "value": 235,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "union_density",
+      "value": 25.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "labor_share",
+      "value": 62.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "productivity_index",
+      "value": 110.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "real_compensation_index",
+      "value": 103.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "strike_count",
+      "value": 231,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "union_density",
+      "value": 25.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "labor_share",
+      "value": 62.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "productivity_index",
+      "value": 112.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "real_compensation_index",
+      "value": 105.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "strike_count",
+      "value": 298,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "union_density",
+      "value": 24.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "labor_share",
+      "value": 62.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "productivity_index",
+      "value": 114.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "real_compensation_index",
+      "value": 106.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "strike_count",
+      "value": 219,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "union_density",
+      "value": 24.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "labor_share",
+      "value": 62.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "productivity_index",
+      "value": 113.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "real_compensation_index",
+      "value": 105.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "strike_count",
+      "value": 235,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1979-01-01",
+      "series_id": "union_density",
+      "value": 24.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "labor_share",
+      "value": 63.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "productivity_index",
+      "value": 113.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "real_compensation_index",
+      "value": 103.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "strike_count",
+      "value": 187,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "union_density",
+      "value": 23.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "labor_share",
+      "value": 62.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "productivity_index",
+      "value": 115.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "real_compensation_index",
+      "value": 103.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "strike_count",
+      "value": 145,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "union_density",
+      "value": 22.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "labor_share",
+      "value": 63.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "productivity_index",
+      "value": 114.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "real_compensation_index",
+      "value": 103.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "strike_count",
+      "value": 96,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "union_density",
+      "value": 21.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "labor_share",
+      "value": 62.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "productivity_index",
+      "value": 119.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "real_compensation_index",
+      "value": 103.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "strike_count",
+      "value": 81,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "union_density",
+      "value": 20.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "labor_share",
+      "value": 61.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "productivity_index",
+      "value": 124.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "real_compensation_index",
+      "value": 105.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "strike_count",
+      "value": 62,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "union_density",
+      "value": 18.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "labor_share",
+      "value": 61.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "productivity_index",
+      "value": 127.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "real_compensation_index",
+      "value": 105.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "strike_count",
+      "value": 54,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "union_density",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "labor_share",
+      "value": 62.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "productivity_index",
+      "value": 130.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "real_compensation_index",
+      "value": 107.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "strike_count",
+      "value": 69,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "union_density",
+      "value": 17.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "labor_share",
+      "value": 61.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "productivity_index",
+      "value": 131.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "real_compensation_index",
+      "value": 106.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "strike_count",
+      "value": 46,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "union_density",
+      "value": 17.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "labor_share",
+      "value": 61.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "productivity_index",
+      "value": 134.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "real_compensation_index",
+      "value": 107.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "strike_count",
+      "value": 40,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "union_density",
+      "value": 16.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "labor_share",
+      "value": 61.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "productivity_index",
+      "value": 135.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "real_compensation_index",
+      "value": 107.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "strike_count",
+      "value": 51,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "union_density",
+      "value": 16.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "labor_share",
+      "value": 61.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "productivity_index",
+      "value": 136.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "real_compensation_index",
+      "value": 107.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "strike_count",
+      "value": 44,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "union_density",
+      "value": 16.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "labor_share",
+      "value": 62.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "productivity_index",
+      "value": 137.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "real_compensation_index",
+      "value": 107.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "strike_count",
+      "value": 40,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "union_density",
+      "value": 16.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "labor_share",
+      "value": 61.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "productivity_index",
+      "value": 142.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "real_compensation_index",
+      "value": 109.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "strike_count",
+      "value": 35,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "union_density",
+      "value": 15.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "labor_share",
+      "value": 61.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "productivity_index",
+      "value": 143.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "real_compensation_index",
+      "value": 109.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "strike_count",
+      "value": 35,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "union_density",
+      "value": 15.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "labor_share",
+      "value": 61.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "productivity_index",
+      "value": 146.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "real_compensation_index",
+      "value": 109.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "strike_count",
+      "value": 45,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "union_density",
+      "value": 15.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "labor_share",
+      "value": 61.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "productivity_index",
+      "value": 148.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "real_compensation_index",
+      "value": 109.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "strike_count",
+      "value": 31,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "union_density",
+      "value": 14.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "labor_share",
+      "value": 60.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "productivity_index",
+      "value": 152.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "real_compensation_index",
+      "value": 109.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "strike_count",
+      "value": 37,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "union_density",
+      "value": 14.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "labor_share",
+      "value": 60.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "productivity_index",
+      "value": 156.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "real_compensation_index",
+      "value": 111.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "strike_count",
+      "value": 29,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "union_density",
+      "value": 14.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "labor_share",
+      "value": 61.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "productivity_index",
+      "value": 161.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "real_compensation_index",
+      "value": 114.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "strike_count",
+      "value": 34,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "union_density",
+      "value": 13.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "labor_share",
+      "value": 61.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "productivity_index",
+      "value": 167.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "real_compensation_index",
+      "value": 116.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "strike_count",
+      "value": 17,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "union_density",
+      "value": 13.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "labor_share",
+      "value": 61.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "productivity_index",
+      "value": 172.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "real_compensation_index",
+      "value": 118.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "strike_count",
+      "value": 39,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "union_density",
+      "value": 13.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "labor_share",
+      "value": 61.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "productivity_index",
+      "value": 175.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "real_compensation_index",
+      "value": 119.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "strike_count",
+      "value": 29,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "union_density",
+      "value": 13.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "labor_share",
+      "value": 61.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "productivity_index",
+      "value": 181.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "real_compensation_index",
+      "value": 121.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "strike_count",
+      "value": 19,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "union_density",
+      "value": 13.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "labor_share",
+      "value": 60.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "productivity_index",
+      "value": 187.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "real_compensation_index",
+      "value": 122.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "strike_count",
+      "value": 14,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "union_density",
+      "value": 12.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "labor_share",
+      "value": 59.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "productivity_index",
+      "value": 193.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "real_compensation_index",
+      "value": 123.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "strike_count",
+      "value": 17,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "union_density",
+      "value": 12.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "labor_share",
+      "value": 59.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "productivity_index",
+      "value": 197.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "real_compensation_index",
+      "value": 122.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "strike_count",
+      "value": 22,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "union_density",
+      "value": 12.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "labor_share",
+      "value": 59.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "productivity_index",
+      "value": 199.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "real_compensation_index",
+      "value": 122.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "strike_count",
+      "value": 20,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "union_density",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "labor_share",
+      "value": 59.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "productivity_index",
+      "value": 202.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "real_compensation_index",
+      "value": 123.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "strike_count",
+      "value": 21,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "union_density",
+      "value": 12.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "labor_share",
+      "value": 59.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "productivity_index",
+      "value": 202.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "real_compensation_index",
+      "value": 121.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "strike_count",
+      "value": 15,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "union_density",
+      "value": 12.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "labor_share",
+      "value": 59.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "productivity_index",
+      "value": 205.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "real_compensation_index",
+      "value": 123.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "strike_count",
+      "value": 5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "union_density",
+      "value": 12.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "labor_share",
+      "value": 57.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "productivity_index",
+      "value": 212.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "real_compensation_index",
+      "value": 123.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "strike_count",
+      "value": 11,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "union_density",
+      "value": 11.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "labor_share",
+      "value": 57.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "productivity_index",
+      "value": 213.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "real_compensation_index",
+      "value": 122.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "strike_count",
+      "value": 19,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "union_density",
+      "value": 11.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "labor_share",
+      "value": 56.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "productivity_index",
+      "value": 215.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "real_compensation_index",
+      "value": 122.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "strike_count",
+      "value": 19,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "union_density",
+      "value": 11.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "labor_share",
+      "value": 56.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "productivity_index",
+      "value": 217.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "real_compensation_index",
+      "value": 123.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "strike_count",
+      "value": 15,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "union_density",
+      "value": 11.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "labor_share",
+      "value": 57.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "productivity_index",
+      "value": 218.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "real_compensation_index",
+      "value": 123.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "strike_count",
+      "value": 11,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "union_density",
+      "value": 11.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "labor_share",
+      "value": 57.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "productivity_index",
+      "value": 221.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "real_compensation_index",
+      "value": 125.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "strike_count",
+      "value": 12,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "union_density",
+      "value": 11.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "labor_share",
+      "value": 57.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "productivity_index",
+      "value": 222.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "real_compensation_index",
+      "value": 126.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "strike_count",
+      "value": 15,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "union_density",
+      "value": 10.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "labor_share",
+      "value": 57.6,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "productivity_index",
+      "value": 225.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "real_compensation_index",
+      "value": 127.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "strike_count",
+      "value": 7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "union_density",
+      "value": 10.7,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "labor_share",
+      "value": 57.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "productivity_index",
+      "value": 228.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "real_compensation_index",
+      "value": 128.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "strike_count",
+      "value": 20,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "union_density",
+      "value": 10.5,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "labor_share",
+      "value": 57.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "productivity_index",
+      "value": 233.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "real_compensation_index",
+      "value": 130.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "strike_count",
+      "value": 25,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "union_density",
+      "value": 10.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "labor_share",
+      "value": 58.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "productivity_index",
+      "value": 241.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "real_compensation_index",
+      "value": 134.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "strike_count",
+      "value": 8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "union_density",
+      "value": 10.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "labor_share",
+      "value": 57.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "productivity_index",
+      "value": 244.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "real_compensation_index",
+      "value": 133.4,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "strike_count",
+      "value": 16,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "union_density",
+      "value": 10.3,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "labor_share",
+      "value": 56.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "productivity_index",
+      "value": 241.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "real_compensation_index",
+      "value": 129.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "strike_count",
+      "value": 23,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "union_density",
+      "value": 10.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "labor_share",
+      "value": 57.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "productivity_index",
+      "value": 246.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "real_compensation_index",
+      "value": 131.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "strike_count",
+      "value": 33,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "union_density",
+      "value": 10.0,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "labor_share",
+      "value": 56.9,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006173 2025"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "productivity_index",
+      "value": 251.2,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006092 2025"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "real_compensation_index",
+      "value": 133.1,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS PRS85006152 2025"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "strike_count",
+      "value": 28,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Work Stoppages Summary 2025"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "union_density",
+      "value": 9.8,
+      "is_projection": false,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Union Members Summary 2025"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "compensation_forecast",
+      "value": 134.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "productivity_forecast",
+      "value": 254.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2026-01-01",
+      "series_id": "compensation_forecast",
+      "value": 135.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2026-01-01",
+      "series_id": "productivity_forecast",
+      "value": 258.2,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2027-01-01",
+      "series_id": "compensation_forecast",
+      "value": 136.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2027-01-01",
+      "series_id": "productivity_forecast",
+      "value": 262.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2028-01-01",
+      "series_id": "compensation_forecast",
+      "value": 138.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2028-01-01",
+      "series_id": "productivity_forecast",
+      "value": 266.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2029-01-01",
+      "series_id": "compensation_forecast",
+      "value": 139.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2029-01-01",
+      "series_id": "productivity_forecast",
+      "value": 270.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2030-01-01",
+      "series_id": "compensation_forecast",
+      "value": 140.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2030-01-01",
+      "series_id": "productivity_forecast",
+      "value": 275.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2031-01-01",
+      "series_id": "compensation_forecast",
+      "value": 142.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2031-01-01",
+      "series_id": "productivity_forecast",
+      "value": 280.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2032-01-01",
+      "series_id": "compensation_forecast",
+      "value": 143.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2032-01-01",
+      "series_id": "productivity_forecast",
+      "value": 284.9,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2033-01-01",
+      "series_id": "compensation_forecast",
+      "value": 144.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2033-01-01",
+      "series_id": "productivity_forecast",
+      "value": 289.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2034-01-01",
+      "series_id": "compensation_forecast",
+      "value": 146.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2034-01-01",
+      "series_id": "productivity_forecast",
+      "value": 294.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2035-01-01",
+      "series_id": "compensation_forecast",
+      "value": 147.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2035-01-01",
+      "series_id": "productivity_forecast",
+      "value": 299.9,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2036-01-01",
+      "series_id": "compensation_forecast",
+      "value": 148.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2036-01-01",
+      "series_id": "productivity_forecast",
+      "value": 305.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2037-01-01",
+      "series_id": "compensation_forecast",
+      "value": 150.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2037-01-01",
+      "series_id": "productivity_forecast",
+      "value": 310.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2038-01-01",
+      "series_id": "compensation_forecast",
+      "value": 151.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2038-01-01",
+      "series_id": "productivity_forecast",
+      "value": 315.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2039-01-01",
+      "series_id": "compensation_forecast",
+      "value": 152.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2039-01-01",
+      "series_id": "productivity_forecast",
+      "value": 321.3,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2040-01-01",
+      "series_id": "compensation_forecast",
+      "value": 154.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2040-01-01",
+      "series_id": "productivity_forecast",
+      "value": 326.9,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2041-01-01",
+      "series_id": "compensation_forecast",
+      "value": 155.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2041-01-01",
+      "series_id": "productivity_forecast",
+      "value": 332.6,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2042-01-01",
+      "series_id": "compensation_forecast",
+      "value": 156.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2042-01-01",
+      "series_id": "productivity_forecast",
+      "value": 338.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2043-01-01",
+      "series_id": "compensation_forecast",
+      "value": 158.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2043-01-01",
+      "series_id": "productivity_forecast",
+      "value": 344.3,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2044-01-01",
+      "series_id": "compensation_forecast",
+      "value": 159.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2044-01-01",
+      "series_id": "productivity_forecast",
+      "value": 350.3,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2045-01-01",
+      "series_id": "compensation_forecast",
+      "value": 160.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2045-01-01",
+      "series_id": "productivity_forecast",
+      "value": 356.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2046-01-01",
+      "series_id": "compensation_forecast",
+      "value": 162.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2046-01-01",
+      "series_id": "productivity_forecast",
+      "value": 362.6,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2047-01-01",
+      "series_id": "compensation_forecast",
+      "value": 163.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2047-01-01",
+      "series_id": "productivity_forecast",
+      "value": 368.9,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2048-01-01",
+      "series_id": "compensation_forecast",
+      "value": 164.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2048-01-01",
+      "series_id": "productivity_forecast",
+      "value": 375.3,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2049-01-01",
+      "series_id": "compensation_forecast",
+      "value": 166.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2049-01-01",
+      "series_id": "productivity_forecast",
+      "value": 381.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2050-01-01",
+      "series_id": "compensation_forecast",
+      "value": 167.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2050-01-01",
+      "series_id": "productivity_forecast",
+      "value": 388.4,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    },
+    {
+      "date": "2051-01-01",
+      "series_id": "compensation_forecast",
+      "value": 168.8,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS trend extrapolated"
+    },
+    {
+      "date": "2051-01-01",
+      "series_id": "productivity_forecast",
+      "value": 395.1,
+      "is_projection": true,
+      "vintage": "2026-06-04",
+      "source_version": "BLS Employment Outlook extrapolated"
+    }
+  ],
+  "warnings": [
+    "Productivity/compensation gap exceeds 100 index points (118.1) \u2014 verify BLS series alignment"
+  ]
+}
