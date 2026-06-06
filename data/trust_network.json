@@ -1,0 +1,1380 @@
+{
+  "meta": {
+    "thread": "trust_network",
+    "label": "Trust Network Collapse",
+    "last_updated": "2026-06-05",
+    "update_frequency": "biennial",
+    "next_expected_update": "2026-12",
+    "source": "GSS General Social Survey \u2014 NORC at University of Chicago 1972+",
+    "theory_ref": "Putnam \u2014 interpersonal trust and civic association as social capital; collapse as cohesion failure precursor to Turchin instability cycle"
+  },
+  "series": [
+    {
+      "series_id": "trust_people",
+      "label": "Most People Can Be Trusted (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e05252",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "trust_fair",
+      "label": "Most People Try to Be Fair (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e0a050",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "trust_helpful",
+      "label": "Most People Try to Be Helpful (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#c0392b",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "assoc_membership",
+      "label": "Voluntary Assoc. Memberships (mean)",
+      "type": "counterweight",
+      "unit": "count",
+      "color": "#52a8e0",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "social_evenings",
+      "label": "Social Evenings/Week (mean)",
+      "type": "counterweight",
+      "unit": "count",
+      "color": "#5db85d",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    }
+  ],
+  "observations": [
+    {
+      "date": "1972-01-01",
+      "series_id": "trust_fair",
+      "value": 61.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1972-01-01",
+      "series_id": "trust_helpful",
+      "value": 55.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1972-01-01",
+      "series_id": "trust_people",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "trust_fair",
+      "value": 62.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "trust_helpful",
+      "value": 56.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1973-01-01",
+      "series_id": "trust_people",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "assoc_membership",
+      "value": 2.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "social_evenings",
+      "value": 3.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "trust_fair",
+      "value": 60.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "trust_helpful",
+      "value": 54.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1974-01-01",
+      "series_id": "trust_people",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "assoc_membership",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "social_evenings",
+      "value": 3.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "trust_fair",
+      "value": 60.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "trust_helpful",
+      "value": 54.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1975-01-01",
+      "series_id": "trust_people",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "trust_fair",
+      "value": 59.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "trust_helpful",
+      "value": 53.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1976-01-01",
+      "series_id": "trust_people",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "social_evenings",
+      "value": 3.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "trust_fair",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "trust_helpful",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1977-01-01",
+      "series_id": "trust_people",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "social_evenings",
+      "value": 2.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "trust_fair",
+      "value": 57.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "trust_helpful",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1978-01-01",
+      "series_id": "trust_people",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "social_evenings",
+      "value": 2.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "trust_fair",
+      "value": 56.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "trust_helpful",
+      "value": 51.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "trust_people",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "social_evenings",
+      "value": 2.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "trust_fair",
+      "value": 55.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "trust_helpful",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "trust_people",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "social_evenings",
+      "value": 2.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "trust_fair",
+      "value": 55.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "trust_helpful",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "trust_people",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "social_evenings",
+      "value": 2.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "trust_fair",
+      "value": 54.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "trust_helpful",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "trust_people",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "social_evenings",
+      "value": 2.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "trust_fair",
+      "value": 53.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "trust_helpful",
+      "value": 48.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "trust_people",
+      "value": 41.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "social_evenings",
+      "value": 2.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "trust_fair",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "trust_helpful",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "trust_people",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "social_evenings",
+      "value": 2.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "trust_fair",
+      "value": 51.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "trust_helpful",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "trust_people",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "social_evenings",
+      "value": 2.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "trust_fair",
+      "value": 51.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "trust_helpful",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "trust_people",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "social_evenings",
+      "value": 2.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "trust_fair",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "trust_helpful",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "trust_people",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "social_evenings",
+      "value": 2.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "trust_fair",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "trust_helpful",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "trust_people",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "social_evenings",
+      "value": 2.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "trust_fair",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "trust_helpful",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "trust_people",
+      "value": 35.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "social_evenings",
+      "value": 2.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "trust_fair",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "trust_helpful",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "trust_people",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "social_evenings",
+      "value": 2.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_fair",
+      "value": 51.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_helpful",
+      "value": 46.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "trust_people",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "social_evenings",
+      "value": 2.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_fair",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_helpful",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "trust_people",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "social_evenings",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_fair",
+      "value": 53.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_helpful",
+      "value": 48.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "trust_people",
+      "value": 41.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "social_evenings",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_fair",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_helpful",
+      "value": 47.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "trust_people",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "social_evenings",
+      "value": 1.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_fair",
+      "value": 50.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_helpful",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "trust_people",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "social_evenings",
+      "value": 1.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_fair",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_helpful",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "trust_people",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "social_evenings",
+      "value": 1.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_fair",
+      "value": 54.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_helpful",
+      "value": 49.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "trust_people",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "social_evenings",
+      "value": 1.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_fair",
+      "value": 45.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_helpful",
+      "value": 41.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "trust_people",
+      "value": 33.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "social_evenings",
+      "value": 1.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_fair",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_helpful",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "trust_people",
+      "value": 31.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "social_evenings",
+      "value": 1.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_fair",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_helpful",
+      "value": 39.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "trust_people",
+      "value": 31.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "assoc_membership",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "social_evenings",
+      "value": 1.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_fair",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_helpful",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "trust_people",
+      "value": 31.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "assoc_membership",
+      "value": 0.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "social_evenings",
+      "value": 1.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_fair",
+      "value": 42.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_helpful",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "trust_people",
+      "value": 31.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "assoc_membership",
+      "value": 0.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "social_evenings",
+      "value": 1.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_fair",
+      "value": 41.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_helpful",
+      "value": 37.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "trust_people",
+      "value": 30.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "assoc_membership",
+      "value": 0.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "social_evenings",
+      "value": 1.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_fair",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_helpful",
+      "value": 36.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "trust_people",
+      "value": 29.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "assoc_membership",
+      "value": 0.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC memnum variable 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "social_evenings",
+      "value": 1.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC socbar/socommun variables 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_fair",
+      "value": 39.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC fair variable 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_helpful",
+      "value": 35.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC helpful variable 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "trust_people",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "GSS NORC trust variable 2024"
+    }
+  ],
+  "warnings": [
+    "Interpersonal trust at 28.0% \u2014 below 30% associated with high social fragmentation"
+  ]
+}

@@ -30,7 +30,7 @@ THREAD_SCHEMA = {
                 "thread":                {"type": "string"},
                 "label":                 {"type": "string"},
                 "last_updated":          {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
-                "update_frequency":      {"type": "string", "enum": ["daily", "monthly", "quarterly", "annual", "periodic"]},
+                "update_frequency":      {"type": "string", "enum": ["daily", "monthly", "quarterly", "annual", "biennial", "periodic"]},
                 "next_expected_update":  {"type": "string", "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"},
                 "source":                {"type": "string"},
                 "theory_ref":            {"type": "string"}
