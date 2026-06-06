@@ -1,0 +1,1088 @@
+{
+  "meta": {
+    "thread": "platform_concentration",
+    "label": "Platform Concentration",
+    "last_updated": "2026-06-06",
+    "update_frequency": "annual",
+    "next_expected_update": "2027-01",
+    "source": "StatCounter + FTC/DOJ filings + eMarketer public data",
+    "theory_ref": "Elite capture of information infrastructure \u2014 platform monopoly as extraction concentration proxy; regulatory capture signal"
+  },
+  "series": [
+    {
+      "series_id": "search_hhi",
+      "label": "Search Market HHI",
+      "type": "stress",
+      "unit": "index",
+      "color": "#e05252",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "ecommerce_hhi",
+      "label": "E-Commerce Market HHI",
+      "type": "stress",
+      "unit": "index",
+      "color": "#e0a050",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "social_hhi",
+      "label": "Social Media Market HHI",
+      "type": "stress",
+      "unit": "index",
+      "color": "#c0392b",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "top4_revenue_share",
+      "label": "Top 4 Platform Ad Revenue Share (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#8e44ad",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "new_platform_entrants",
+      "label": "Significant New Platform Entrants (count)",
+      "type": "counterweight",
+      "unit": "count",
+      "color": "#52a8e0",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "regulatory_actions",
+      "label": "FTC/DOJ Antitrust Actions (count)",
+      "type": "counterweight",
+      "unit": "count",
+      "color": "#5db85d",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    }
+  ],
+  "observations": [
+    {
+      "date": "2004-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 1100.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 4.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "search_hhi",
+      "value": 3200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "social_hhi",
+      "value": 1200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 1300.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 5.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "search_hhi",
+      "value": 3800.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "social_hhi",
+      "value": 1400.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 1500.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 6.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "search_hhi",
+      "value": 4200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "social_hhi",
+      "value": 1800.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 1800.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 5.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "search_hhi",
+      "value": 4800.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "social_hhi",
+      "value": 2200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 34.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 2100.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 4.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "search_hhi",
+      "value": 5200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "social_hhi",
+      "value": 2600.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 40.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 2400.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 3.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "search_hhi",
+      "value": 5600.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "social_hhi",
+      "value": 3100.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 44.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 2700.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 4.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "regulatory_actions",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "search_hhi",
+      "value": 5900.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "social_hhi",
+      "value": 3600.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 48.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 3000.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 3.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "regulatory_actions",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "search_hhi",
+      "value": 6100.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "social_hhi",
+      "value": 3900.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 3300.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 3.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "search_hhi",
+      "value": 6300.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "social_hhi",
+      "value": 4200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 56.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 3600.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "search_hhi",
+      "value": 6400.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "social_hhi",
+      "value": 4400.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 59.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 3900.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "search_hhi",
+      "value": 6500.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "social_hhi",
+      "value": 4500.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 62.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 4200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "search_hhi",
+      "value": 6600.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "social_hhi",
+      "value": 4600.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 65.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 4500.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "search_hhi",
+      "value": 6700.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "social_hhi",
+      "value": 4700.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 67.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 4700.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "regulatory_actions",
+      "value": 0.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "search_hhi",
+      "value": 6800.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "social_hhi",
+      "value": 4800.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 69.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 4900.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "regulatory_actions",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "search_hhi",
+      "value": 6900.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "social_hhi",
+      "value": 4700.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 71.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 5100.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "regulatory_actions",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "search_hhi",
+      "value": 7100.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "social_hhi",
+      "value": 4600.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 72.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 5400.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "regulatory_actions",
+      "value": 4.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "search_hhi",
+      "value": 7200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "social_hhi",
+      "value": 4500.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 74.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 5500.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 2.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "regulatory_actions",
+      "value": 3.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "search_hhi",
+      "value": 7300.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "social_hhi",
+      "value": 4300.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 75.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 5400.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "regulatory_actions",
+      "value": 4.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "search_hhi",
+      "value": 7200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "social_hhi",
+      "value": 4100.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 74.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 5300.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "regulatory_actions",
+      "value": 5.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "search_hhi",
+      "value": 7100.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "social_hhi",
+      "value": 3900.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 73.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "ecommerce_hhi",
+      "value": 5200.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "new_platform_entrants",
+      "value": 1.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC merger data + public records 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "regulatory_actions",
+      "value": 4.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FTC/DOJ antitrust case records 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "search_hhi",
+      "value": 7000.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "StatCounter/FTC derived HHI 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "social_hhi",
+      "value": 3800.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer/FTC derived HHI 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "top4_revenue_share",
+      "value": 72.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "eMarketer public summaries 2024"
+    }
+  ],
+  "warnings": [
+    "search_hhi at 7000.0 \u2014 highly concentrated per DOJ guidelines (>2500)",
+    "ecommerce_hhi at 5200.0 \u2014 highly concentrated per DOJ guidelines (>2500)",
+    "social_hhi at 3800.0 \u2014 highly concentrated per DOJ guidelines (>2500)"
+  ]
+}
