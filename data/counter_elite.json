@@ -1,0 +1,988 @@
+{
+  "meta": {
+    "thread": "counter_elite",
+    "label": "Counter-Elite Formation",
+    "last_updated": "2026-06-06",
+    "update_frequency": "biennial",
+    "next_expected_update": "2026-12",
+    "source": "FEC Federal Election Commission bulk data 1980+",
+    "theory_ref": "Turchin SDT \u2014 self-funded outsider candidates as proxy for elite fragmentation; counter-elite formation as intra-elite competition signal"
+  },
+  "series": [
+    {
+      "series_id": "self_funded_count",
+      "label": "Self-Funded Candidates (count)",
+      "type": "stress",
+      "unit": "count",
+      "color": "#e05252",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "self_funded_pct",
+      "label": "Self-Funded Candidates (% of total)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e0a050",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "third_party_pct",
+      "label": "Third Party / Independent Vote Share (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#c0392b",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "incumbent_retention",
+      "label": "House Incumbent Retention Rate (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#52a8e0",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "avg_candidate_count",
+      "label": "Mean Candidates per District",
+      "type": "counterweight",
+      "unit": "count",
+      "color": "#5db85d",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    }
+  ],
+  "observations": [
+    {
+      "date": "1980-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "incumbent_retention",
+      "value": 90.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "self_funded_count",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "self_funded_pct",
+      "value": 2.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1980-01-01",
+      "series_id": "third_party_pct",
+      "value": 2.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "incumbent_retention",
+      "value": 90.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "self_funded_count",
+      "value": 14.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "self_funded_pct",
+      "value": 2.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "third_party_pct",
+      "value": 1.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "incumbent_retention",
+      "value": 95.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "self_funded_count",
+      "value": 16.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "self_funded_pct",
+      "value": 2.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "third_party_pct",
+      "value": 1.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "incumbent_retention",
+      "value": 98.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "self_funded_count",
+      "value": 15.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "self_funded_pct",
+      "value": 2.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "third_party_pct",
+      "value": 1.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "incumbent_retention",
+      "value": 98.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "self_funded_count",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "self_funded_pct",
+      "value": 2.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "third_party_pct",
+      "value": 1.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "incumbent_retention",
+      "value": 96.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "self_funded_count",
+      "value": 22.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "self_funded_pct",
+      "value": 3.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "third_party_pct",
+      "value": 2.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 3.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "incumbent_retention",
+      "value": 88.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "self_funded_count",
+      "value": 31.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "self_funded_pct",
+      "value": 4.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "third_party_pct",
+      "value": 8.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "incumbent_retention",
+      "value": 90.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "self_funded_count",
+      "value": 28.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "self_funded_pct",
+      "value": 3.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "third_party_pct",
+      "value": 4.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "incumbent_retention",
+      "value": 94.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "self_funded_count",
+      "value": 34.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "self_funded_pct",
+      "value": 4.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "third_party_pct",
+      "value": 5.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "incumbent_retention",
+      "value": 98.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "self_funded_count",
+      "value": 38.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "self_funded_pct",
+      "value": 4.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "third_party_pct",
+      "value": 3.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "incumbent_retention",
+      "value": 97.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "self_funded_count",
+      "value": 48.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "self_funded_pct",
+      "value": 5.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "third_party_pct",
+      "value": 4.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "incumbent_retention",
+      "value": 95.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "self_funded_count",
+      "value": 52.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "self_funded_pct",
+      "value": 6.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "third_party_pct",
+      "value": 3.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 2.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "incumbent_retention",
+      "value": 98.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "self_funded_count",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "self_funded_pct",
+      "value": 6.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "third_party_pct",
+      "value": 2.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 3.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "incumbent_retention",
+      "value": 93.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "self_funded_count",
+      "value": 61.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "self_funded_pct",
+      "value": 6.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "third_party_pct",
+      "value": 3.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 3.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "incumbent_retention",
+      "value": 93.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "self_funded_count",
+      "value": 67.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "self_funded_pct",
+      "value": 6.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "third_party_pct",
+      "value": 3.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 3.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "incumbent_retention",
+      "value": 85.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "self_funded_count",
+      "value": 74.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "self_funded_pct",
+      "value": 7.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "third_party_pct",
+      "value": 4.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 3.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "incumbent_retention",
+      "value": 90.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "self_funded_count",
+      "value": 82.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "self_funded_pct",
+      "value": 7.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "third_party_pct",
+      "value": 3.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 3.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "incumbent_retention",
+      "value": 95.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "self_funded_count",
+      "value": 79.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "self_funded_pct",
+      "value": 7.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "third_party_pct",
+      "value": 3.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 3.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "incumbent_retention",
+      "value": 96.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "self_funded_count",
+      "value": 94.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "self_funded_pct",
+      "value": 8.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "third_party_pct",
+      "value": 5.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 4.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "incumbent_retention",
+      "value": 91.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "self_funded_count",
+      "value": 118.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "self_funded_pct",
+      "value": 9.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "third_party_pct",
+      "value": 4.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 4.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "incumbent_retention",
+      "value": 95.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "self_funded_count",
+      "value": 134.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "self_funded_pct",
+      "value": 10.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "third_party_pct",
+      "value": 3.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 4.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "incumbent_retention",
+      "value": 92.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "self_funded_count",
+      "value": 142.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "self_funded_pct",
+      "value": 10.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "third_party_pct",
+      "value": 4.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "avg_candidate_count",
+      "value": 4.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC candidate filings 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "incumbent_retention",
+      "value": 93.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC/CRS House retention data 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "self_funded_count",
+      "value": 156.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "self_funded_pct",
+      "value": 11.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC bulk data summary 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "third_party_pct",
+      "value": 5.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "FEC House election returns 2024"
+    }
+  ],
+  "warnings": [
+    "Self-funded candidates at 11.2% \u2014 exceeds 10% Turchin counter-elite threshold"
+  ]
+}
