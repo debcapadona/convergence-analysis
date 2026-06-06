@@ -1,0 +1,1214 @@
+{
+  "meta": {
+    "thread": "ai_labor_displacement",
+    "label": "AI Labor Displacement",
+    "last_updated": "2026-06-06",
+    "update_frequency": "annual",
+    "next_expected_update": "2026-11",
+    "source": "BLS OES + BLS Employment Projections + DOL TAA",
+    "theory_ref": "Structural unemployment as immiseration accelerant \u2014 AI substitution of routine cognitive labor driving wage polarization and underemployment"
+  },
+  "series": [
+    {
+      "series_id": "routine_cognitive_share",
+      "label": "Routine Cognitive Jobs \u2014 % of Employment",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e05252",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "u6_underemployment",
+      "label": "U-6 Underemployment Rate (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e0a050",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "wage_polarization",
+      "label": "Wage Polarization (90/10 ratio)",
+      "type": "stress",
+      "unit": "ratio",
+      "color": "#c0392b",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "stem_share",
+      "label": "STEM Jobs \u2014 % of Employment",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#52a8e0",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "retraining_completion",
+      "label": "Displaced Workers Completing Retraining (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#5db85d",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "routine_cognitive_forecast",
+      "label": "Routine Cognitive Jobs \u2014 Projected (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": null,
+      "stroke_style": "dashed",
+      "stroke_width": 1.5,
+      "is_forecast": true
+    }
+  ],
+  "observations": [
+    {
+      "date": "1994-01-01",
+      "series_id": "u6_underemployment",
+      "value": 11.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "u6_underemployment",
+      "value": 10.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "u6_underemployment",
+      "value": 9.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "u6_underemployment",
+      "value": 9.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "u6_underemployment",
+      "value": 8.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "u6_underemployment",
+      "value": 7.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "u6_underemployment",
+      "value": 7.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "u6_underemployment",
+      "value": 7.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "u6_underemployment",
+      "value": 9.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "u6_underemployment",
+      "value": 10.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "retraining_completion",
+      "value": 62.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 18.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "stem_share",
+      "value": 4.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "u6_underemployment",
+      "value": 9.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "wage_polarization",
+      "value": 4.81,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "retraining_completion",
+      "value": 61.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 18.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "stem_share",
+      "value": 4.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "u6_underemployment",
+      "value": 8.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "wage_polarization",
+      "value": 4.84,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "retraining_completion",
+      "value": 62.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 17.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "stem_share",
+      "value": 4.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "u6_underemployment",
+      "value": 8.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "wage_polarization",
+      "value": 4.88,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "retraining_completion",
+      "value": 63.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 17.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "stem_share",
+      "value": 4.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "u6_underemployment",
+      "value": 8.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "wage_polarization",
+      "value": 4.91,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "retraining_completion",
+      "value": 61.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 17.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "stem_share",
+      "value": 4.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "u6_underemployment",
+      "value": 10.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "wage_polarization",
+      "value": 4.94,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "retraining_completion",
+      "value": 58.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 17.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "stem_share",
+      "value": 4.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "u6_underemployment",
+      "value": 16.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "wage_polarization",
+      "value": 4.98,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "retraining_completion",
+      "value": 56.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 16.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "stem_share",
+      "value": 4.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "u6_underemployment",
+      "value": 16.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.02,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "retraining_completion",
+      "value": 57.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 16.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "stem_share",
+      "value": 4.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "u6_underemployment",
+      "value": 15.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.06,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "retraining_completion",
+      "value": 58.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 16.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "stem_share",
+      "value": 4.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "u6_underemployment",
+      "value": 14.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.09,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "retraining_completion",
+      "value": 59.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 15.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "stem_share",
+      "value": 5.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "u6_underemployment",
+      "value": 13.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.12,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "retraining_completion",
+      "value": 60.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 15.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "stem_share",
+      "value": 5.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "u6_underemployment",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.14,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "retraining_completion",
+      "value": 61.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 15.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "stem_share",
+      "value": 5.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "u6_underemployment",
+      "value": 9.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.16,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "retraining_completion",
+      "value": 62.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 15.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "stem_share",
+      "value": 5.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "u6_underemployment",
+      "value": 9.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.18,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "retraining_completion",
+      "value": 61.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 14.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "stem_share",
+      "value": 5.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "u6_underemployment",
+      "value": 8.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.21,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "retraining_completion",
+      "value": 62.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 14.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "stem_share",
+      "value": 6.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "u6_underemployment",
+      "value": 7.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.24,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "retraining_completion",
+      "value": 63.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 13.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "stem_share",
+      "value": 6.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "u6_underemployment",
+      "value": 7.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.26,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "retraining_completion",
+      "value": 54.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 13.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "stem_share",
+      "value": 6.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "u6_underemployment",
+      "value": 14.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.31,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "retraining_completion",
+      "value": 58.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 12.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "stem_share",
+      "value": 6.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "u6_underemployment",
+      "value": 9.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.28,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "retraining_completion",
+      "value": 61.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 12.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "stem_share",
+      "value": 6.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "u6_underemployment",
+      "value": 6.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.22,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "retraining_completion",
+      "value": 62.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 11.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "stem_share",
+      "value": 7.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "u6_underemployment",
+      "value": 7.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.24,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "retraining_completion",
+      "value": 63.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "DOL TAA program data 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "routine_cognitive_share",
+      "value": 11.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES Frey-Osborne high-risk categories 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "stem_share",
+      "value": 7.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES STEM occupations 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "u6_underemployment",
+      "value": 7.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Labor Force Statistics U-6 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "wage_polarization",
+      "value": 5.26,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "BLS OES 90/10 wage ratio 2024"
+    },
+    {
+      "date": "2025-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 10.8,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2026-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 10.2,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2027-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 9.6,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2028-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 9.1,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2029-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 8.6,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2030-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 8.1,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2031-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 7.7,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2032-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 7.3,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2033-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 6.9,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2034-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 6.5,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2035-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 6.2,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2036-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 5.9,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2037-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 5.6,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2038-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 5.4,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2039-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 5.2,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2040-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 5.0,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2041-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.8,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2042-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.7,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2043-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.6,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2044-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.5,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2045-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.4,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2046-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.3,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2047-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.2,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2048-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.2,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2049-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.1,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2050-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.1,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    },
+    {
+      "date": "2051-01-01",
+      "series_id": "routine_cognitive_forecast",
+      "value": 4.0,
+      "is_projection": true,
+      "vintage": "2026-06-05",
+      "source_version": "BLS Employment Projections 2024-2034 extrapolated"
+    }
+  ],
+  "warnings": [
+    "Routine cognitive share at 11.3% \u2014 rapid displacement may be outpacing retraining capacity"
+  ]
+}
