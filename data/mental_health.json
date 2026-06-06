@@ -1,0 +1,1215 @@
+{
+  "meta": {
+    "thread": "mental_health",
+    "label": "Mental Health Deterioration",
+    "last_updated": "2026-06-06",
+    "update_frequency": "annual",
+    "next_expected_update": "2026-11",
+    "source": "SAMHSA NSDUH + CDC NCHS",
+    "theory_ref": "Popular immiseration signal \u2014 psychological stress as leading indicator of social instability; treatment gap as system capacity failure"
+  },
+  "series": [
+    {
+      "series_id": "any_mental_illness",
+      "label": "Any Mental Illness \u2014 Adults (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e05252",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "major_depression",
+      "label": "Major Depressive Episode \u2014 Adults (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#e0a050",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "anxiety_pct",
+      "label": "Anxiety Disorder \u2014 Adults (%)",
+      "type": "stress",
+      "unit": "percent",
+      "color": "#c0392b",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "suicide_rate",
+      "label": "Suicide Rate (per 100k, age-adj.)",
+      "type": "stress",
+      "unit": "rate",
+      "color": "#8e44ad",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    },
+    {
+      "series_id": "treatment_access",
+      "label": "Mental Illness Receiving Treatment (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#52a8e0",
+      "stroke_style": "solid",
+      "stroke_width": 2,
+      "is_forecast": false
+    },
+    {
+      "series_id": "insurance_coverage",
+      "label": "Mental Health Insurance Coverage (%)",
+      "type": "counterweight",
+      "unit": "percent",
+      "color": "#5db85d",
+      "stroke_style": "solid",
+      "stroke_width": 1.5,
+      "is_forecast": false
+    }
+  ],
+  "observations": [
+    {
+      "date": "1980-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1981-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1982-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1983-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1984-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1985-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1986-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1987-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1988-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1989-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1990-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1991-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1992-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1993-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1994-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1995-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1996-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1997-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1998-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "1999-01-01",
+      "series_id": "suicide_rate",
+      "value": 10.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2000-01-01",
+      "series_id": "suicide_rate",
+      "value": 10.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2001-01-01",
+      "series_id": "suicide_rate",
+      "value": 10.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2002-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2003-01-01",
+      "series_id": "suicide_rate",
+      "value": 10.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "any_mental_illness",
+      "value": 19.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "major_depression",
+      "value": 6.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "suicide_rate",
+      "value": 10.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2004-01-01",
+      "series_id": "treatment_access",
+      "value": 40.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "any_mental_illness",
+      "value": 19.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "major_depression",
+      "value": 6.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "suicide_rate",
+      "value": 10.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2005-01-01",
+      "series_id": "treatment_access",
+      "value": 41.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "any_mental_illness",
+      "value": 19.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "major_depression",
+      "value": 6.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2006-01-01",
+      "series_id": "treatment_access",
+      "value": 40.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "any_mental_illness",
+      "value": 20.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "major_depression",
+      "value": 6.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2007-01-01",
+      "series_id": "treatment_access",
+      "value": 41.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "anxiety_pct",
+      "value": 18.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "any_mental_illness",
+      "value": 19.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "insurance_coverage",
+      "value": 58.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "major_depression",
+      "value": 6.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2008-01-01",
+      "series_id": "treatment_access",
+      "value": 39.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "anxiety_pct",
+      "value": 18.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "any_mental_illness",
+      "value": 19.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "insurance_coverage",
+      "value": 57.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "major_depression",
+      "value": 6.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "suicide_rate",
+      "value": 11.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2009-01-01",
+      "series_id": "treatment_access",
+      "value": 39.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "anxiety_pct",
+      "value": 18.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "any_mental_illness",
+      "value": 18.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "insurance_coverage",
+      "value": 58.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "major_depression",
+      "value": 6.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2010-01-01",
+      "series_id": "treatment_access",
+      "value": 38.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "anxiety_pct",
+      "value": 18.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "any_mental_illness",
+      "value": 18.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "insurance_coverage",
+      "value": 58.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "major_depression",
+      "value": 6.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2011-01-01",
+      "series_id": "treatment_access",
+      "value": 39.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "anxiety_pct",
+      "value": 18.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "any_mental_illness",
+      "value": 18.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "insurance_coverage",
+      "value": 59.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "major_depression",
+      "value": 6.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2012-01-01",
+      "series_id": "treatment_access",
+      "value": 38.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "anxiety_pct",
+      "value": 18.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "any_mental_illness",
+      "value": 18.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "insurance_coverage",
+      "value": 59.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "major_depression",
+      "value": 6.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "suicide_rate",
+      "value": 12.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2013-01-01",
+      "series_id": "treatment_access",
+      "value": 43.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "anxiety_pct",
+      "value": 18.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "any_mental_illness",
+      "value": 18.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "insurance_coverage",
+      "value": 64.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "major_depression",
+      "value": 6.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "suicide_rate",
+      "value": 13.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2014-01-01",
+      "series_id": "treatment_access",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "anxiety_pct",
+      "value": 18.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "any_mental_illness",
+      "value": 17.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "insurance_coverage",
+      "value": 67.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "major_depression",
+      "value": 6.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "suicide_rate",
+      "value": 13.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2015-01-01",
+      "series_id": "treatment_access",
+      "value": 43.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "anxiety_pct",
+      "value": 18.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "any_mental_illness",
+      "value": 18.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "insurance_coverage",
+      "value": 68.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "major_depression",
+      "value": 6.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "suicide_rate",
+      "value": 13.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2016-01-01",
+      "series_id": "treatment_access",
+      "value": 43.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "anxiety_pct",
+      "value": 19.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "any_mental_illness",
+      "value": 19.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "insurance_coverage",
+      "value": 67.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "major_depression",
+      "value": 7.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "suicide_rate",
+      "value": 14.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2017-01-01",
+      "series_id": "treatment_access",
+      "value": 42.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "anxiety_pct",
+      "value": 19.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "any_mental_illness",
+      "value": 19.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "insurance_coverage",
+      "value": 67.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "major_depression",
+      "value": 7.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "suicide_rate",
+      "value": 14.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2018-01-01",
+      "series_id": "treatment_access",
+      "value": 43.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "anxiety_pct",
+      "value": 19.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "any_mental_illness",
+      "value": 20.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "insurance_coverage",
+      "value": 67.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "major_depression",
+      "value": 7.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "suicide_rate",
+      "value": 13.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2019-01-01",
+      "series_id": "treatment_access",
+      "value": 44.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "anxiety_pct",
+      "value": 21.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "any_mental_illness",
+      "value": 21.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "insurance_coverage",
+      "value": 68.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "major_depression",
+      "value": 8.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "suicide_rate",
+      "value": 13.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2020-01-01",
+      "series_id": "treatment_access",
+      "value": 46.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "anxiety_pct",
+      "value": 22.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "any_mental_illness",
+      "value": 22.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "insurance_coverage",
+      "value": 70.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "major_depression",
+      "value": 8.3,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "suicide_rate",
+      "value": 13.5,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2021-01-01",
+      "series_id": "treatment_access",
+      "value": 47.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "anxiety_pct",
+      "value": 23.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "any_mental_illness",
+      "value": 23.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "insurance_coverage",
+      "value": 71.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "major_depression",
+      "value": 8.7,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "suicide_rate",
+      "value": 13.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2022-01-01",
+      "series_id": "treatment_access",
+      "value": 47.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "anxiety_pct",
+      "value": 23.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "any_mental_illness",
+      "value": 23.0,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "insurance_coverage",
+      "value": 72.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "major_depression",
+      "value": 8.9,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "suicide_rate",
+      "value": 13.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2023-01-01",
+      "series_id": "treatment_access",
+      "value": 48.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "anxiety_pct",
+      "value": 23.6,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "any_mental_illness",
+      "value": 23.2,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "insurance_coverage",
+      "value": 72.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA/KFF mental health coverage proxy 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "major_depression",
+      "value": 9.1,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "suicide_rate",
+      "value": 13.8,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "CDC NCHS age-adjusted suicide rates 2024"
+    },
+    {
+      "date": "2024-01-01",
+      "series_id": "treatment_access",
+      "value": 48.4,
+      "is_projection": false,
+      "vintage": "2026-06-05",
+      "source_version": "SAMHSA NSDUH 2024"
+    }
+  ],
+  "warnings": [
+    "Mental illness prevalence at 23.2% \u2014 exceeds 22% post-pandemic threshold",
+    "Treatment gap at 51.6% \u2014 majority of mentally ill adults not receiving care"
+  ]
+}
